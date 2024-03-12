@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- skycons -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/skycons@1.0.0/dist/skycons.min.js"></script>
+
+</head>
+
+<link rel="stylesheet" href="weatherapp.css">
+<body>
+    <div id="landing-page">
+        <h1>Time and Weather App</h1>
+        <p>Select a city to find out what's up:</p>
+        <select id="citySelect" onchange="changeBackground()">
+
+            <!--  cities with differing timezones!-->
+            <option> Select City</option>
+            <option place="London" value="London">London</option>
+            <option place="Barcelona" value="Barcelona">Barcelona</option>
+            <option place="Paris" value="Paris">Paris</option>
+            <option place="Prague" value="Prague">Prague</option>
+            <option place="Bombay" value="Bombay">Bombay</option>
+            <option place="Florence" value="Florence">Florence</option>
+            <option place="Tokyo" value="Tokyo">Tokyo</option>
+            <option place="Melbourne" value="Melbourne">Melbourne</option>
+        </select>
+    </div>
+
+    <!-- time and date box-->
+    <div id="time-and-date" class="top-right"></div>
+    <div id="date-box" class="top-right"></div>
+
+    <div id="weather-display"></div>
+
+
+
+    <!-- github icon -->
+    
+    <div id="weatherIcon" >
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="weatherapp.js"></script>
+</body>
+</html>

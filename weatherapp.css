@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+    transition: background-color 1s ease, background-image 3s ease; 
+
+#landing-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffe6e6; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weatherIcon {
+    position: fixed;
+    top: 3cm; 
+    left: 3cm; 
+}
+
+#weatherIcon {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+#citySelect {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    color: #333; }
+
+    /* time-and-date box */
+
+#time-and-date,
+#date-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 3s ease; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+/* styling for the date-box */
+#date-box {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* skycon styling */
+.weather-icon {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+}
